@@ -27,7 +27,7 @@ cursor.executemany("""
 
 
 
-print("\n4. Duplicate combinations in transactions (col1, col2):")
+print("\nDuplicate combinations in transactions (col1, col2):")
 cursor.execute("""
 SELECT col1, col2, COUNT(*) as count
 FROM transactions
