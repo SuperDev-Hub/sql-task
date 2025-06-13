@@ -48,7 +48,7 @@ cursor.executemany("INSERT IGNORE INTO sales VALUES (%s, %s, %s)", sales_data)
 conn.commit()
 
 
-print("\n3. Running total of sales amount by date:")
+print("\n Running total of sales amount by date:")
 cursor.execute("""
 SELECT 
     s1.date,
